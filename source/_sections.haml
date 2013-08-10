@@ -1,0 +1,8 @@
+- sections.each do |section|
+  - if section.artifact_count > 0
+    %section.section.row{ id: section_id(section) }
+      .col-lg-12
+        %h2.title= section.title
+        %ul.row.artifacts
+          - section.artifacts.each do |artifact|
+            = partial :artifact_grid_item, locals: {artifact: artifact}

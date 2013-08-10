@@ -1,0 +1,29 @@
+$navbar-bgcolor: #428bca
+$navbar-active-bgcolor: $navbar-bgcolor * 0.8
+
+#global-navbar
+  background-color: $navbar-bgcolor
+  .navbar-brand
+    color: #fff
+    font-style: italic
+    background-color: $navbar-bgcolor * 0.6
+    +respond_to(mobile)
+      background-color: $navbar-bgcolor
+  .navbar-nav > li
+    +respond_to(mobile)
+      border-top: solid 1px ($navbar-bgcolor * 0.7)
+    > a
+      color: #fff
+      +respond_to(desktop-small)
+        padding:
+          left: 8px
+          right: 8px
+      +respond_to(tablet)
+        padding:
+          left: 5px
+          right: 5px
+    &.active
+      background-color: $navbar-bgcolor
+      > a
+        background-color: $navbar-bgcolor
+        text-decoration: underline

@@ -1,0 +1,20 @@
+- if include_header
+  - content_for(:navbar) do
+    = partial 'artifacts/navbar'
+  = header artifact.title
+  .row.artifact-full
+    .col-lg-8
+      %p.text= artifact.text
+    .col-lg-4
+      - if artifact.download
+        .download
+          = link_to artifact.download, class: "download" do
+            = image_tag "document-icon-small.png"
+            Download/View File
+- else
+  .artifact-embedded
+    %h2.title= artifact.title
+    %p.text= artifact.text
+    - if artifact.download
+      = link_to "Download/View File", artifact.download, class: "download"
+    
