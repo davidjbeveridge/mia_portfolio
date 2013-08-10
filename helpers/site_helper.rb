@@ -7,4 +7,8 @@ module SiteHelper
     partial :header, locals: {title: title || site_title}
   end
   
+  def root_url
+    ('../' * current_path.scan('/').count) + 'index.html'
+  end
+  
 end

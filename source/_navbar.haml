@@ -1,15 +1,12 @@
-- if content_for?(:navbar)
-  = yield_content :navbar
-- else
-  %nav#global-navbar.navbar.navbar-inverse.navbar-fixed-top.col-lg-12
-    %button.navbar-toggle{type:"button", data: {toggle:"collapse", target:".navbar-responsive-collapse"} }
-      %span.icon-bar
-      %span.icon-bar
-      %span.icon-bar
-    %a.navbar-brand{href: '#home'}= site_title
-    .nav-collapse.collapse.navbar-responsive-collapse.container
-      %ul.nav.navbar-nav
-        - sections.each do |section|
-          - if section.artifact_count > 0
-            %li
-              %a{ href: section_href(section) }= section.title
+%nav#global-navbar.navbar.navbar-inverse.navbar-fixed-top.col-lg-12
+  %button.navbar-toggle{type:"button", data: {toggle:"collapse", target:".navbar-responsive-collapse"} }
+    %span.icon-bar
+    %span.icon-bar
+    %span.icon-bar
+  = link_to site_title, root_url, anchor: 'home', class: "navbar-brand", relative: true
+  .nav-collapse.collapse.navbar-responsive-collapse.container
+    %ul.nav.navbar-nav
+      - sections.each do |section|
+        - if section.artifact_count > 0
+          %li
+            = link_to section.title, root_url, anchor: section_id(section), relative: true
