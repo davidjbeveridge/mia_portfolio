@@ -1,3 +1,3 @@
 %li.col-lg-6
-  = link_to artifact.title, artifact_url(artifact)
+  %a{href: artifact_url(artifact) }= artifact.title
   %p.summary= artifact.summary
