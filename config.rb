@@ -33,6 +33,29 @@
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+require 'lib/basic_model'
+require 'lib/section'
+require 'lib/artifact'
+
+Artifact.all.each do |artifact|
+  page  "/artifacts/#{artifact.id}.html",
+        proxy: "/artifacts/template.html",
+        locals: {
+          artifact: artifact,
+          include_header: true
+        },
+        ignore: true
+  page  "/artifacts/#{artifact.id}_content.html",
+        proxy: "/artifacts/template.html",
+        locals: {
+          artifact: artifact,
+          include_header: false
+        },
+        layout: false,
+        ignore: true
+
+end
+
 ###
 # Helpers
 ###
@@ -41,11 +64,14 @@
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  
+  Dir['helpers/**/*_helper.rb'].each do |path|
+    require path[/^(.*?).rb$/, 1]
+    include File.basename(path)[/^(.*?).rb$/, 1].camelize.constantize
+  end
+  
+end
 
 set :css_dir, 'stylesheets'
 

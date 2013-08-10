@@ -2,11 +2,15 @@
 %html
   %head
     %meta(charset="utf-8")
-    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+    %meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %meta(name="description" content="")
-    %meta(name="viewport" content="width=device-width")
-    %title= data.page.title || "Mia Beveridge, OTS"
-    = stylesheet_link_tag "application"
+    %title= data.page.title || "Mia Beveridge"
+    = stylesheet_link_tag "application", media: :all
     = javascript_include_tag  "application"
-  %body(class=page_classes)
-    = yield
+  %body#home(class=page_classes data-spy="scroll" data-target="#global-navbar")
+    = partial :navbar
+    .container
+      #main
+        = yield
+      = partial :footer
