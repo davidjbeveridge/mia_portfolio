@@ -4,11 +4,8 @@
     .col-lg-8
       %p.text= artifact.text
     .col-lg-4
-      - if artifact.download
-        .download
-          = link_to artifact.download, class: "download" do
-            = image_tag "document-icon-small.png"
-            Download/View File
+      .download
+        = thumbnail(artifact, "Download/View File")
 - else
   .artifact-embedded
     %h2.title= artifact.title

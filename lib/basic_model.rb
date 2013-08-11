@@ -17,7 +17,11 @@ class BasicModel
     if attribute_names.include? name
       @attrs[name]
     elsif attribute_names.include? name[0...-1]
-      @attrs[name[0...-1]] = args[0]
+      if name[-1] == '='
+        @attrs[name[0...-1]] = args[0]
+      elsif name[-1] == '?'
+        !@attrs[name[0...-1]].nil?
+      end
     else
       p name, args
       super

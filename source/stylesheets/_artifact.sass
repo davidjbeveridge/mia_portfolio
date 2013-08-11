@@ -4,9 +4,15 @@
     display: block
     text-align: center
     margin-bottom: 30px
-    img
-      padding: 10%
-      margin: 0 10% 5%
-      background-color: #f9f9f9
-      border: solid 2px #d9d9d9
-      +border-radius(5px)
+    +border-radius(5px)
+    > a
+      img
+        background-color: #fff
+        border: solid 1px #000
+        max-width: 100%
+        +box-shadow(2px 2px 9px rgba(0, 0, 0, 0.8))
+        + div
+          padding-top: 20px
+      &[href$=pdf]
+        div:after
+          content: " (PDF)"

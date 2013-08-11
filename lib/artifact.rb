@@ -1,7 +1,7 @@
 class Artifact < BasicModel
   
   def attribute_names
-    %w(title category original download summary text)
+    %w(title category pdf image summary text)
   end
   
   def download
