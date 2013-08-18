@@ -22,4 +22,4 @@ namespace :generate do
 
 end
 
-task :build => 'generate:pdf_thumbs'
+# task :build => 'generate:pdf_thumbs'
