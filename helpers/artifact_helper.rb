@@ -16,8 +16,6 @@ module ArtifactHelper
       image_thumbnail(artifact, text)
     elsif artifact.video?
       video_embed(artifact, text)
-    else
-      content_tag :div, "No Image Available"
     end
   end
   
@@ -30,7 +28,9 @@ module ArtifactHelper
   end
   
   def image_thumbnail(artifact, text=nil)
-    image_tag artifact.image
+    link_to image_path("artifacts/#{artifact.image}"), class: "fancybox" do
+      image_tag image_thumb_path(artifact.image)
+    end
   end
   
   def video_embed(artifact, text=nil)
@@ -49,5 +49,9 @@ module ArtifactHelper
     root_url "downloads/#{pdf}"
   end
   
+  def image_thumb_path(img)
+    basename = img.split('.').tap{|f|f.pop}.join('.')
+    "thumbnails/#{basename}_350x.png"
+  end
   
 end

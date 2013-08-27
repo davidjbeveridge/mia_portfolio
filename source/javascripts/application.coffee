@@ -2,4 +2,7 @@
 #= require vendor/_modernizr
 #= require vendor/_bootstrap
 #= require vendor/_respond
+#= require vendor/_fancybox
 #= require_tree .
+
+$(document).ready -> $('.fancybox').fancybox()

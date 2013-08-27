@@ -1,11 +1,12 @@
 - if include_header
   = header artifact.title
-  .row.artifact-full
+  %article.row.artifact-full
     .col-lg-8
       %p.text= artifact.text
     .col-lg-4
       .download
         = thumbnail(artifact, "Download/View File")
+  
 - else
   .artifact-embedded
     %h2.title= artifact.title

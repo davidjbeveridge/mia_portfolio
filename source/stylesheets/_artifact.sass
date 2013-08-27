@@ -16,6 +16,11 @@
       &[href$=pdf]
         div:after
           content: " (PDF)"
+      &[href$=png], &[href$=jpg], &[href$=gif]
+        cursor: -webkit-zoom-in
+        cursor: -moz-zoom-in
+        > img
+          border: solid 8px #FBFBF4
 
   .video-wrapper
     position: relative
