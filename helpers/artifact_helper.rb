@@ -28,7 +28,7 @@ module ArtifactHelper
   end
   
   def image_thumbnail(artifact, text=nil)
-    link_to image_path("artifacts/#{artifact.image}"), class: "fancybox" do
+    link_to image_path("artifacts/#{artifact.image}"), class: "image fancybox" do
       image_tag image_thumb_path(artifact.image)
     end
   end
