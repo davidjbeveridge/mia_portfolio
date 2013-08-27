@@ -14,6 +14,8 @@ module ArtifactHelper
       pdf_thumbnail(artifact, text)
     elsif artifact.image?
       image_thumbnail(artifact, text)
+    elsif artifact.video?
+      video_embed(artifact, text)
     else
       content_tag :div, "No Image Available"
     end
@@ -30,6 +32,13 @@ module ArtifactHelper
   def image_thumbnail(artifact, text=nil)
     image_tag artifact.image
   end
+  
+  def video_embed(artifact, text=nil)
+    content_tag :div, class: "video-wrapper" do
+      tag :iframe, src: artifact.video, class: "video", frameborder: "0", allowfullscreen: true
+    end
+  end
+  
   
   def pdf_thumb_path(pdf)
     basename = pdf.split('.').tap{|f|f.pop}.join('.')
