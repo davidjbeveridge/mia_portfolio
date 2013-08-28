@@ -7,6 +7,6 @@
   .nav-collapse.collapse.navbar-responsive-collapse.container
     %ul.nav.navbar-nav
       - sections.each do |section|
-        - if section.artifact_count > 0
+        - if section.artifact_count > 0 || section.download_count > 0
           %li
             = link_to section.title, root_url, anchor: section_id(section), relative: true
