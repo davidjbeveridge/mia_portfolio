@@ -5,3 +5,5 @@ artifacts:
   - s2_occt520_cgcsr
   - s3_occt630_opr
   - s3_occt649_atdr
+  - s4_occt645_obhr
+  - s4_occt651_opr
