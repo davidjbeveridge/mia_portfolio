@@ -7,7 +7,7 @@ pdf: s2_occt523_qpr.pdf
 Using a social media website allowed us to sample attitudes of the public in
 a convenient format. In this way we offered privacy and flexibility to
 respondents. This study was a sixteen question media survey presented on
-Facebook. I thought using facebook to help collect data from the public was
+Facebook. I thought using Facebook to help collect data from the public was
 an excellent idea. However, one major limitation of this approach is that it
 may limit the authenticity of participants' results. If I had to answer
 similar questions, I may not answer honestly if I wasn't sure they were
