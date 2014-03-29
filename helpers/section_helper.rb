@@ -2,7 +2,7 @@ module SectionHelper
   require 'lib/section'
   
   def sections
-    Section.all
+    Section.all.reject(&:empty?).sort(&section_order)
   end
   
   def section_id(section)
@@ -27,6 +27,19 @@ module SectionHelper
     else
       ""
     end
+  end
+
+  private
+
+  def order
+    %w[
+      evidence_based occupation_based leadership social_justice professional
+      final_reflections
+    ]
+  end
+
+  def section_order
+    Proc.new { |s1, s2| order.index(s1.id) - order.index(s2.id) }
   end
   
   

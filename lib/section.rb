@@ -20,5 +20,13 @@ class Section < BasicModel
   def download_count
     (@attrs['downloads'] || []).count
   end
+
+  def empty?
+    artifact_count == 0 and download_count == 0
+  end
+
+  def any?
+    !empty?
+  end
   
 end

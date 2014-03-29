@@ -1,8 +1,8 @@
+= sections.map(&:id)
 - sections.each do |section|
-  - if section.artifact_count > 0 || section.download_count > 0
-    %section.section.row{ id: section_id(section) }
-      .col-lg-12
-        %h2.title= section.title
-        %ul.row.artifacts
-          = section_artifacts(section)
-          = section_downloads(section)
+  %section.section.row{ id: section_id(section) }
+    .col-lg-12
+      %h2.title= section.title
+      %ul.row.artifacts
+        = section_artifacts(section)
+        = section_downloads(section)
