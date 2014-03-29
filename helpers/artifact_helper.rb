@@ -35,7 +35,11 @@ module ArtifactHelper
   
   def video_embed(artifact, text=nil)
     content_tag :div, class: "video-wrapper" do
-      tag :iframe, src: artifact.video, class: "video", frameborder: "0", allowfullscreen: true
+      tag :iframe,
+          src: artifact.video,
+          class: "video",
+          frameborder: "0",
+          allowfullscreen: true
     end
   end
   

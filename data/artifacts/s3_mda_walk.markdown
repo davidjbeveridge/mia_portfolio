@@ -1,0 +1,13 @@
+---
+title: "Semester 3&mdash;MDA Walk"
+summary: "I helped raise money to send two kids w/ MDA to camp."
+image: "mda_walk.jpg"
+---
+On March 16th I attended the Muscular Dystrophy Walk I was interested in
+walking for the MD walk mainly to send kids to camp. We were able to raise
+enough money to send two kids to camp! Much of the fundraising money goes to
+research projects, summer camps, MDA equipment lending program that helps
+families in need. Participating in this event made me feel that I was part
+of a bigger piece of the puzzle in helping kids with muscular dystrophy
+have good time at camp.
+

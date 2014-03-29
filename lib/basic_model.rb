@@ -1,70 +1,95 @@
+require 'active_support/all'
+
 class BasicModel
-  
-  def attribute_names
-    []
-  end
-  private :attribute_names
 
-  def initialize(id, params={})
-    @id = id
-    @attrs = params.select{ |k,v| attribute_names.include?(k) }
-  end
-  
-  attr_reader :id
+  module InstanceMethods
 
-  def method_missing(name, *args)
-    name = name.to_s
-    if attribute_names.include? name
-      @attrs[name]
-    elsif attribute_names.include? name[0...-1]
-      if name[-1] == '='
-        @attrs[name[0...-1]] = args[0]
-      elsif name[-1] == '?'
-        !@attrs[name[0...-1]].nil?
+    def attribute_names
+      []
+    end
+    private :attribute_names
+
+    def initialize(id, params={}, content=nil)
+      @id = id
+      @attrs = params.select{ |k,v| attribute_names.include?(k) }
+      @content = content.split(/\n*[-]{3}\n/)[2]
+    end
+    
+    attr_reader :id, :content
+
+    def attrs
+      HashWithIndifferentAccess.new @attrs
+    end
+
+    def method_missing(name, *args)
+      name = name.to_s
+      if attribute_names.include? name
+        @attrs[name]
+      elsif attribute_names.include? name[0...-1]
+        if name[-1] == '='
+          @attrs[name[0...-1]] = args[0]
+        elsif name[-1] == '?'
+          !@attrs[name[0...-1]].nil?
+        end
+      else
+        p name, args
+        super
       end
-    else
-      p name, args
-      super
     end
-  end
 
-  def to_s
-    kv_pairs = @attrs.map{|k,v| "@#{k}: #{v}"}.join(', ')
-    "<#{self.class.name}\##{object_id} #{kv_pairs} >"
-  end
-  
-  
-  def self.load(slug)
-    @records ||= {}
-    @records[slug.to_sym] ||= begin
-      yaml = File.read( send("#{instance_name}_path", slug) )
-      new slug, YAML.load(yaml)
+  end # InstanceMethods
+
+  module ClassMethods
+
+    def load(slug)
+      records[slug.to_sym] ||= begin
+        contents = data_file(slug)
+        new slug, YAML.load(contents), contents
+      end
     end
-  end
-  
-  def self.all
-    Dir[path("*.yml")].map do |path|
-      name = File.basename(path)[/^(.*?).yml/, 1]
-      load(name)
+
+    def data_file(slug)
+      File.read( send("#{instance_name}_path", slug) )
     end
-  end
-  
-  def self.path(*args)
-    [Middleman.locate_root, "data", instance_name.pluralize, *args].join('/')
-  end
-  
-  def self.instance_name
-    self.name.underscore
-  end
-  
-  def self.method_missing(name, *args, &block)
-    path_method = "#{instance_name}_path"
-    if name.to_s == "#{path_method}"
-      path("#{args[0]}.yml")
-    else
-      super
+
+    def records
+      @records ||= {}
     end
-  end
+    
+    def all
+      Dir[path("*.#{extension}")].map do |path|
+        name = File.basename(path)[/^(.*?)\.#{extension}/, 1]
+        load(name)
+      end
+    end
+
+    def extension(new_extension=nil)
+      @extension = (new_extension || @extension) || 'yml'
+    end
+    
+    def path(*parts)
+      data_root.join(*parts)
+    end
+
+    def data_root
+      Pathname.new File.join Middleman.locate_root, "data", instance_name.pluralize
+    end
+    
+    def instance_name
+      name.underscore
+    end
+    
+    def method_missing(name, *args, &block)
+      if name.to_s == "#{instance_name}_path"
+        path("#{args[0]}.#{extension}")
+      else
+        super
+      end
+    end
   
+  end #ClassMethods
+  
+  include InstanceMethods
+  extend ClassMethods
 
 end
