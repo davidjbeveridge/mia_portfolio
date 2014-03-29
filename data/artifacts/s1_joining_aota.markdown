@@ -1,7 +1,9 @@
 ---
-title: "Semester 1&mdash;Joining AOTA"
-summary: "A brief reflection on why I joined AOTA"
+title: "Semester 1&mdash;Joining the American Occupational Therapy Association"
+summary: "A brief discussion of why I chose to join AOTA."
+image: aota_card.jpg
 ---
+
 Being a member of AOTA is a great way keep abreast of new information within
 occupational therapy. It also allows me to be a part of a network where
 innovative research takes place, new ideas are formed within the profession,
