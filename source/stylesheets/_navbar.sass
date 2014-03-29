@@ -3,25 +3,37 @@ $navbar-active-bgcolor: $navbar-bgcolor * 0.8
 
 #global-navbar
   background-color: $navbar-bgcolor
+  .nav-collapse
+    +respond_to(tablet)
+      max-width: 95%
   .navbar-brand
     color: #fff
     font-style: italic
     background-color: $navbar-bgcolor * 0.6
     +respond_to(mobile)
       background-color: $navbar-bgcolor
+    +respond_to(tablet)
+      font-size: 0px
+      &::first-letter
+        font-size: 12pt
   .navbar-nav > li
+    height: 50px
+    overflow: hidden
+    text-overflow: ellipsis
+    +respond_to(tablet)
+      width: 16%
     +respond_to(mobile)
       border-top: solid 1px ($navbar-bgcolor * 0.7)
     > a
       color: #fff
+      text-overflow: ellipsis
+      white-space: nowrap
+      overflow: hidden
       +respond_to(desktop-small)
-        padding:
-          left: 8px
-          right: 8px
+        padding: 15px 8px
       +respond_to(tablet)
-        padding:
-          left: 5px
-          right: 5px
+        padding: 15px 5px
+        font-size: 0.9em
     &.active
       background-color: $navbar-bgcolor
       > a

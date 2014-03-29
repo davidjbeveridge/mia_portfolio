@@ -4,7 +4,7 @@
     %span.icon-bar
     %span.icon-bar
   = link_to site_title, root_url, anchor: 'home', class: "navbar-brand", relative: true
-  .nav-collapse.collapse.navbar-responsive-collapse.container
+  .nav-collapse.collapse.navbar-responsive-collapse.pull-left
     %ul.nav.navbar-nav
       - sections.each do |section|
         - if section.artifact_count > 0 || section.download_count > 0
