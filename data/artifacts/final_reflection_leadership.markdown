@@ -1,5 +1,5 @@
 ---
-title: Leadership Final Reflection
+title: "Final Reflection: Leadership"
 ---
 
 My primary leadership model is being a servant leader.  I try to be always
