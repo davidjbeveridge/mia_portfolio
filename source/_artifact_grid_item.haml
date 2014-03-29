@@ -1,3 +1,14 @@
-%li.col-lg-6
-  = link_to artifact.title, artifact_url(artifact)
-  %p.summary= artifact.summary
+- if artifact.children?
+  %li.col-lg-6
+    = artifact.title
+    - if artifact.summary?
+      %p.summary= artifact.summary
+    %ul.children
+      - artifact.children.each do |child|
+        - Artifact.load(child).tap do |a|
+          %li= link_to a.title, artifact_url(a)
+- else
+  %li.col-lg-6
+    = link_to artifact.title, artifact_url(artifact)
+    - if artifact.summary?
+      %p.summary= artifact.summary

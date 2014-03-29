@@ -15,9 +15,10 @@ module GenArtifact
   protected
   def template
     <<-TEMPLATE
+---
 title: ""
 summary: ""
-text: >
+---
 TEMPLATE
   end
 

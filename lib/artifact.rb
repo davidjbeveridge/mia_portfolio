@@ -5,7 +5,7 @@ class Artifact < BasicModel
   extension 'markdown'
 
   def attribute_names
-    %w(title category pdf image video summary)
+    %w[title category pdf image video summary children]
   end
 
   def download
