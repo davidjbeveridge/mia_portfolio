@@ -1,11 +1,14 @@
 - if include_header
   = header artifact.title
   %article.row.artifact-full
-    .col-lg-8
-      .text= artifact.text
-    .col-lg-4
-      .download
-        = thumbnail(artifact, "Download/View File")
-      - if artifact.caption?
-        .caption= artifact.kramdown artifact.caption
-  
+    - if artifact.has_attachment?
+      .col-lg-8
+        .text= artifact.text
+      .col-lg-4
+        .download
+          = thumbnail(artifact, "Download/View File")
+        - if artifact.caption?
+          .caption= artifact.kramdown artifact.caption
+    - else
+      .col-lg-12
+        .text= artifact.text

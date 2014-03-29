@@ -24,4 +24,8 @@ class Artifact < BasicModel
     Kramdown::Document.new(text).to_html
   end
 
+  def has_attachment?
+    pdf? or image? or video?
+  end
+
 end
