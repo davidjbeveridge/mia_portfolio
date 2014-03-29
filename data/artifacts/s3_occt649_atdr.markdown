@@ -1,6 +1,8 @@
 ---
 title: "Semester 3&mdash;OCCT 649: AT Device and Reflection"
-summary: "Cerebral Palsy & Wheelchair Tennis, a project presented at Touro's Assistive Technology Fair"
+summary: >
+  An assistive device I made to help a child with spastic cerebral palsy to play
+  tennis.
 pdf: s3_occt649_atd.pdf
 ---
 At Touro's 2013 Assistive Technology Fair, I presented an adaptive device

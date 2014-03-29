@@ -1,6 +1,8 @@
 ---
 title: "Semester 3&mdash;OCCT 630: Occupational Profile and Reflection"
-summary: "Occupational profile from my fieldwork at a substance-abuse rehabilitation facility"
+summary: >
+  Occupational profile from my Level I Fieldwork at a substance-abuse
+  rehabilitation facility.
 pdf: s3_occt630_opoa.pdf
 ---
 It was difficult to gather information and synthesize information in a

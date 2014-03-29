@@ -1,6 +1,7 @@
 ---
-title: "Semester 2&mdash;OCCT 523: Qualitative Paper and reflection"
-summary: "Review of a study on the public understanding of Occupational Therapy"
+title: "Semester 2&mdash;OCCT 523: Qualitative Paper and Reflection"
+summary: >
+  A qualitative look at public perceptions of occupational therapy.
 pdf: s2_occt523_qpr.pdf
 ---
 Using a social media website allowed us to sample attitudes of the public in

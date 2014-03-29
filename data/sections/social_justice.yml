@@ -5,7 +5,7 @@ artifacts:
   - s3_mda_walk
   - s4_lv_rescue_mission
   - s5_cdo
-  - s5_student_advocate
+  - s5_occt660_student_advocate
   - s5_occt655_pfmppr
   - s6_three_square
   - final_reflection_social_justice

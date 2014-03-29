@@ -1,6 +1,8 @@
 ---
 title: "Semester 1&mdash;OCCT 506: Occupational Analysis Paper and Reflection"
-summary: An analysis of the Occupational Therapy Practice Framework
+summary: >
+  I use the Occupational Therapy Practice Framework to guide my intervention
+  plan for a stroke patient.
 pdf: s1_occt506_oap.pdf
 ---
 I thought I did really well with synthesizing the information and putting

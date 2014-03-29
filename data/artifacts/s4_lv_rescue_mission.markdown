@@ -1,5 +1,5 @@
 ---
-title: 4th Semester - Las Vegas Rescue Mission
+title: Semester 4&mdash;Las Vegas Rescue Mission
 summary: I organized a donation drive for the Las Vegas Rescue Mission.
 ---
 During 4th Semester, I ran a donation drive at my church for the Las Vegas

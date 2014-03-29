@@ -1,5 +1,8 @@
 ---
 title: "Final Reflection: Evidence-based Practice"
+summary: >
+  A description of my development and growth in the discipline of evidence-based
+  practice.
 ---
 
 One thing I really want to remember about evidence-based practice is the proper

@@ -1,6 +1,6 @@
 ---
 title: "Semester 5&mdash;Calvary Downtown Outreach"
-summary: "Preparing a free meal for the homeless in downtown Las Vegas"
+summary: I helped to prepare a free meal for the homeless in downtown Las Vegas.
 video: //www.youtube.com/embed/anG0E9f5RCs
 ---
 I enjoyed preparing food for the homeless. It was a great experience, the

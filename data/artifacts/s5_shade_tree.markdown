@@ -1,5 +1,5 @@
 ---
-title: 5th Semester&mdash;Donating Items for Shade Tree
+title: Semester 5&mdash;Donating Items for Shade Tree
 summary: >
   Shade tree is an organization that provides shelter to women and
   families escaping abusive situations; I helped organize a Shade Tree donation

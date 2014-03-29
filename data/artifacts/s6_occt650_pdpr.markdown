@@ -1,6 +1,7 @@
 ---
-title: Semester 6 - OCCT 650 - Professional Development Plan & Reflection
-summary: Planning my career and professional development...
+title: "Semester 6&mdash;OCCT 650: Professional Development Plan & Reflection"
+summary: >
+  My personal mission statement, goals, and objectives for the next 10 years.
 ---
 
 Creating a professional development plan was was very taxing, but rewarding in

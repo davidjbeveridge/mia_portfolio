@@ -1,8 +1,8 @@
 ---
-title: 5th Semester - Advocating for a student with vision impairment
+title: "Semester 5&mdash;OCCT 660:Advocating for a Student With a Vision Impairment"
 summary: >
   I advocated on behalf of a child during my fieldwork at Clark County School
-  District
+  District.
 ---
 During my first Level II fieldwork, I worked with a student who, in addition to
 a diagnosis of intellectual developmental disorder, could not see well. She did

@@ -1,6 +1,6 @@
 ---
 title: "Semester 1&mdash;Spread the Word to End the Word"
-summary: "I joined the campaign to end the use of the R-word"
+summary: I joined the campaign to end the use of the R-word.
 video: "//www.youtube.com/embed/T549VoLca_Q"
 ---
 I pledged to end the use of the r-word (“retarded”) as part of the "Spread the

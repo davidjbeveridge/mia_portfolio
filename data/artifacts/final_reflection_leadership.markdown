@@ -1,5 +1,7 @@
 ---
 title: "Final Reflection: Leadership"
+summary: >
+  A discussion of my development, growth, strengths, and weaknesses as a leader.
 ---
 
 My primary leadership model is being a servant leader.  I try to be always

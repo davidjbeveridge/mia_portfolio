@@ -1,5 +1,8 @@
 ---
 title: "Final Reflection: Occupation-based Practice"
+summary: >
+  A description of my development and growth in the discipline of
+  occupation-based practice.
 ---
 
 Making sure that intervention sessions and treatment plans are client-centered

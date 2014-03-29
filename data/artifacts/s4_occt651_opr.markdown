@@ -1,6 +1,8 @@
 ---
 title: "Semester 4&mdash;OCCT 651: Occupational profile and reflection"
-summary: "Learning to build report with a client"
+summary: >
+  I reflect on my work with, and subsequent occupational profile and analysis of
+  a patient recovering from open reduction internal fixation surgery.
 pdf: "s4_occt651_opr.pdf"
 ---
 I really enjoyed this assignment. I thought this project was difficult, but it

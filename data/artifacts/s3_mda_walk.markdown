@@ -1,6 +1,8 @@
 ---
 title: "Semester 3&mdash;MDA Walk"
-summary: "I helped raise money to send two kids w/ MDA to camp."
+summary: >
+  I participated in a walk to raise money to send kids with muscular dystrophy
+  to camp.
 image: "mda_walk.jpg"
 ---
 On March 16th I attended the Muscular Dystrophy Walk I was interested in

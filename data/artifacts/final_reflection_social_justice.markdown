@@ -1,5 +1,8 @@
 ---
 title: "Final Reflection: Social Justice"
+summary: >
+  A discussion of how my awareness and understanding of social justice have
+  grown.
 ---
 
 There are many things that can divide us from one another, such as socioeconomic

@@ -1,5 +1,10 @@
 ---
-title: Final Reflection
+title: Video and Final Reflection
+summary: >
+  A description of my growth and understanding of social justice, intellectual
+  pursuit, and service to community, and how they relate to my future as an
+  occupational therapist.
+video: //www.youtube.com/embed/bkzf_tBUM2k
 ---
 
 My understanding of social justice has broadened while attending the

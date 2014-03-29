@@ -1,6 +1,6 @@
 ---
 title: "Semester 3&mdash;Vice President of the Geriatric Interest Group"
-summary: "I enjoy serving as the the GIG's Vice President."
+summary: "I enjoy serving as the Geriatric Interest Group's Vice President."
 pdf: s1_geriatric_interest_group.pdf
 ---
 In April of 2013, I was elected Vice President of the Geriatric Interest

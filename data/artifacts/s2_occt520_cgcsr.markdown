@@ -1,6 +1,6 @@
 ---
 title: "Semester 2&mdash;OCCT 520: Child-based Group Case Study and Reflection"
-summary: "A case study of a child with autism"
+summary: An in-depth case study of a child with autism in a school setting.
 pdf: s2_occt520_cbgcs.pdf
 ---
 I enjoyed learning about Autism. Finding research to support our

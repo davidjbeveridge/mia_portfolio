@@ -1,5 +1,7 @@
 ---
 title: "Semester 5 - OCCT 660: Occupation-based Treatment"
+summary: >
+  During Level II fieldwork I used an occupation-based treatment with a client.
 ---
 
 During Level II fieldwork, I worked with a child who had a hemiplegia on his
