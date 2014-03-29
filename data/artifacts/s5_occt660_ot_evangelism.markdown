@@ -3,6 +3,10 @@ title: "Semester 5&mdash;OCCT 660: OT Evangelism during level II Fieldwork"
 summary: >
   I shared the values and beliefs of occupational therapy with a teacher
   during my Level II Fieldwork at Clark County School District.
+image: mia_ccsd_school.jpg
+caption: >
+  I shared the values and beliefs of occupational therapy while working
+  at the Clark County School District.
 ---
 During my first Level II fieldwork at Clark County School District, I had the
 opportunity to explain the values and beliefs of occupational therapy to one of

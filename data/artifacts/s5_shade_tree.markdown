@@ -4,6 +4,8 @@ summary: >
   Shade tree is an organization that provides shelter to women and
   families escaping abusive situations; I helped organize a Shade Tree donation
   drive for the cohort.
+image: shade_tree_donations.jpg
+caption: Items the cohort donated to Shade Tree
 ---
 I organized a donation drive for Shade Tree in conjunction with my classmate,
 Nikita Malhotra. Nikita and I sent an e-mail to the 2014 Occupational Therapy

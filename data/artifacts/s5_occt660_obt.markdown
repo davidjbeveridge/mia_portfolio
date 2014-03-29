@@ -2,6 +2,9 @@
 title: "Semester 5 - OCCT 660: Occupation-based Treatment"
 summary: >
   During Level II fieldwork I used an occupation-based treatment with a client.
+image: caterpillar_craft.jpg
+caption: >
+  Image retrieved from [http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html](http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html)
 ---
 
 During Level II fieldwork, I worked with a child who had a hemiplegia on his
@@ -45,3 +48,9 @@ himself. Once you build rapport it is easier to provide occupation-based
 activities for the child; it is important to build that trusting relationship
 and learn about the child’s interests.
 
+### References
+{: .references }
+
+* Pumpknaprincess (2014). The very hungry caterpillar activities.  Retrived from
+  [http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html](http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html)
+{: .references }

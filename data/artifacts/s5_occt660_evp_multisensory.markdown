@@ -1,5 +1,6 @@
 ---
 title: "Multisensory Approach and Reflection"
+pdf: multisensory_approaches_woodward.pdf
 ---
 
 I used the multisensory approach for intervention planning with several clients.

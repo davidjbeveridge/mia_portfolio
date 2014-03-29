@@ -6,6 +6,8 @@
     .col-lg-4
       .download
         = thumbnail(artifact, "Download/View File")
+      - if artifact.caption?
+        .caption= artifact.kramdown artifact.caption
   
 - else
   .artifact-embedded

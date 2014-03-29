@@ -1,6 +1,7 @@
 ---
 title: Semester 4&mdash;Las Vegas Rescue Mission
 summary: I organized a donation drive for the Las Vegas Rescue Mission.
+image: lv_rescue_mission_donation.jpg
 ---
 During 4th Semester, I ran a donation drive at my church for the Las Vegas
 Rescue Mission. Getting others to donate items to the Rescue Mission was more

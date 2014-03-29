@@ -1,5 +1,6 @@
 ---
 title: "Handwriting Without Tears and Reflection"
+pdf: hwt_donica.pdf
 ---
 
 During my Level II fieldwork at Clark County School District (CCSD) I used both

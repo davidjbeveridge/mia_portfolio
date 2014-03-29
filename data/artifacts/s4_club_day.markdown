@@ -1,6 +1,7 @@
 ---
 title: "Semester 4&mdash;Club Day"
 summary: I promoted the Geriatric Interest Group at Touro's annual Club Day.
+pdf: gig_club_day_flyer.pdf
 ---
 Club Day helped me to strengthen my leadership abilities. I took the initiative
 to help make a flyer for Club Day to pass out to students. There were about 25

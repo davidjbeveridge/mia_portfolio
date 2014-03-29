@@ -1,6 +1,7 @@
 ---
 title: 6th Semester - Three Square
 summary: My classmates and I made enchiladas for the hungry at Three Square.
+image: three_square.jpg
 ---
 
 I had a great time preparing enchiladas with my classmates at Three Square! We

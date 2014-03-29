@@ -1,8 +1,11 @@
 ---
-title: "Semester 5&mdash;OCCT 655: Powerpoint from Marginalized Population Presentation and Reflection"
+title: >
+  Semester 5&mdash;OCCT 655: Powerpoint from Marginalized Population
+  Presentation and Reflection
 summary: >
   A reflection on a presentation my group gave about the victims of sex
   trafficking.
+pdf: sex_trafficking_presentation.pdf
 ---
 
 The marginalized group we presented on were victims of sex trafficking. I really

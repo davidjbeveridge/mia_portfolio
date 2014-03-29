@@ -3,6 +3,10 @@ title: "Semester 5&mdash;OCCT 660:Advocating for a Student With a Vision Impairm
 summary: >
   I advocated on behalf of a child during my fieldwork at Clark County School
   District.
+image: slantboard.jpg
+caption: >
+  The slantboard and hightlighted paper I provided the student (student's
+  writing redacted)
 ---
 During my first Level II fieldwork, I worked with a student who, in addition to
 a diagnosis of intellectual developmental disorder, could not see well. She did

@@ -5,7 +5,7 @@ class Artifact < BasicModel
   extension 'markdown'
 
   def attribute_names
-    %w[title category pdf image video summary children]
+    %w[title category pdf image video summary children caption]
   end
 
   def download
@@ -17,7 +17,11 @@ class Artifact < BasicModel
   end
 
   def content
-    Kramdown::Document.new(super).to_html
+    kramdown super
+  end
+
+  def kramdown(text)
+    Kramdown::Document.new(text).to_html
   end
 
 end

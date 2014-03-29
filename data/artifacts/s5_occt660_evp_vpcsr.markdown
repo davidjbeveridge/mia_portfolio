@@ -1,5 +1,6 @@
 ---
 title: "Visual Perceptual Case Study and Reflection"
+image: pediatric_ot.jpg
 ---
 
 During my level II fieldwork I incorporated the Dynamic Theory into my
