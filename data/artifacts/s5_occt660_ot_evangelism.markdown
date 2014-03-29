@@ -8,7 +8,7 @@ caption: >
   I shared the values and beliefs of occupational therapy while working
   at the Clark County School District.
 ---
-During my first Level II fieldwork at Clark County School District, I had the
+During my first Level II Fieldwork at Clark County School District, I had the
 opportunity to explain the values and beliefs of occupational therapy to one of
 the teachers I worked with. I felt comfortable talking to a teacher about the
 values and beliefs. It went well and I learned that teachers have similar values

@@ -15,4 +15,4 @@ want to make sure to ask the question in the right way.  I really enjoyed
 listening to this client’s occupational history. Most of all, I left feeling
 really good about getting to know this client and I know I made him feel
 comfortable because we had a lot of things in common when talking about his
-interests and hopes and dreams.
+interests, hopes, and dreams.

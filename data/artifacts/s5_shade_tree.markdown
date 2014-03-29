@@ -8,7 +8,7 @@ image: shade_tree_donations.jpg
 caption: Items the cohort donated to Shade Tree
 ---
 I organized a donation drive for Shade Tree in conjunction with my classmate,
-Nikita Malhotra. Nikita and I sent an e-mail to the 2014 Occupational Therapy
+Nikita Malhotra. Nikita and I sent an e-mail to the 2014 occupational therapy
 cohort asking them to bring in some items to donate; we were to collect these
 items and deliver them following week. I grew as a leader in my ability to deal
 with logistical issues, which turned out to be more nuanced than we had

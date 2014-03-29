@@ -21,7 +21,7 @@ a leader at TUN and also study it in our Leadership class. I knew there were
 different types of leaders, but I could not have categorized them.  I didn’t
 realize the breadth of my own leadership; I tend to challenge the norms, and I
 lead by refusing to conform to what everyone else is doing.  I usually stand out
-because of what I my beliefs.  One of my great strengths is my solid character;
+because of what I believe.  One of my great strengths is my solid character;
 I choose to do the right thing, even under pressure. One of my weaknesses is my
 ineloquent public speaking; my nerves tend to get the best of me and I start
 fumbling my words.  I have learned to realize this and I have to be extremely

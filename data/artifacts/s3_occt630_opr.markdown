@@ -9,7 +9,7 @@ It was difficult to gather information and synthesize information in a
 non-traditional setting. I really struggled with trying to incorporate all
 the problems this client presented and figure out which was most important.
 I only had one class that talked about psycosocial interventions and I felt
-like a single class didn’t equip me to problem solve well very well in this
+like a single class didn’t equip me to problem-solve well very well in this
 particular setting. I had to do a lot of self-learning. When I was
 interviewing the client to obtain an occupational profile it was difficult
 to set priorities and desired outcomes because she had a plethora of goals,
