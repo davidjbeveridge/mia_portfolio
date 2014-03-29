@@ -47,15 +47,6 @@ Artifact.all.each do |artifact|
           include_header: true
         },
         ignore: true
-  page  "/artifacts/#{artifact.id}_content.html",
-        proxy: "/artifacts/template.html",
-        locals: {
-          artifact: artifact,
-          include_header: false
-        },
-        layout: false,
-        ignore: true
-
 end
 
 ###

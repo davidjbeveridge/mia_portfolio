@@ -9,9 +9,3 @@
       - if artifact.caption?
         .caption= artifact.kramdown artifact.caption
   
-- else
-  .artifact-embedded
-    %h2.title= artifact.title
-    %p.text= artifact.text
-    - if artifact.download
-      = link_to "Download/View File", artifact.download, class: "download"
