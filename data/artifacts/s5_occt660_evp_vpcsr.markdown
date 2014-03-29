@@ -3,7 +3,7 @@ title: "Visual Perceptual Case Study and Reflection"
 image: pediatric_ot.jpg
 ---
 
-During my level II fieldwork I incorporated the Dynamic Theory into my
+During my level II Fieldwork I incorporated the Dynamic Theory into my
 intervention planning with a client. I learned about the Dynamic Theory in a
 book called “Pediatric Occupational Therapy,” research by (Kramer & Hinojosa,
 2010). Intervention guidelines within the dynamic theory include positive

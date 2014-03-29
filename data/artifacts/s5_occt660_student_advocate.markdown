@@ -8,7 +8,7 @@ caption: >
   The slantboard and hightlighted paper I provided the student (student's
   writing redacted)
 ---
-During my first Level II fieldwork, I worked with a student who, in addition to
+During my first Level II Fieldwork, I worked with a student who, in addition to
 a diagnosis of intellectual developmental disorder, could not see well. She did
 not have glasses, and during reading and writing activities, she would lean over
 until her face was about two inches away from the table. I talked to my

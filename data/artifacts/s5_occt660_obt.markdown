@@ -1,13 +1,13 @@
 ---
 title: "Semester 5 - OCCT 660: Occupation-based Treatment"
 summary: >
-  During Level II fieldwork I used an occupation-based treatment with a client.
+  During Level II Fieldwork I used an occupation-based treatment with a client.
 image: caterpillar_craft.jpg
 caption: >
   Image retrieved from [http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html](http://apumpkinandaprincess.com/2013/09/hungry-caterpillar-activities-100-book-bundle-giveaway.html)
 ---
 
-During Level II fieldwork, I worked with a child who had a hemiplegia on his
+During Level II Fieldwork, I worked with a child who had a hemiplegia on his
 left side affected. His goal was to use scissors to cut along curved lines with
 the paper stabilized. I chose a balloon toss activity to help work on bilateral
 use of both hands as a preparatory activity. I also used the game “Red Light,

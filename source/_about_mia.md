@@ -6,9 +6,9 @@ in [Human Services][hhs] from the [University of Northern Colorado][unco]'s
 I have worked with older adults as a CNA, and as a behavioral health specialist 
 I worked with elementary-age children.
 
-During my Level I fieldwork I worked at Nevada Early Intervention Services,
+During my Level I Fieldwork I worked at Nevada Early Intervention Services,
 Southern Nevada Adult Mental Health, and Mesa View Physical Therapy.  During my
-Level II fieldwork worked with students at the Clark County School District.
+Level II Fieldwork worked with students at the Clark County School District.
 
 [tun]: http://www.tun.touro.edu/
 [msot]: http://tun.touro.edu/programs/college-of-health-and-human-services/occupational-therapy/

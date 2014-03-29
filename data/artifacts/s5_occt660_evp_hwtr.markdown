@@ -3,7 +3,7 @@ title: "Handwriting Without Tears and Reflection"
 pdf: hwt_donica.pdf
 ---
 
-During my Level II fieldwork at Clark County School District (CCSD) I used both
+During my Level II Fieldwork at Clark County School District (CCSD) I used both
 the cognitive and multisensory approach with a student who had Autism. I used
 Handwriting Without Tears (HWT) with the student and used other multisensory
 activities such as a whiteboard with chalk, rice, Play Doh, and used lotion to
