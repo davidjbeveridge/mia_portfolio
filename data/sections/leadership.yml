@@ -3,5 +3,6 @@ artifacts:
   - s1_occt508_pdpr
   - s1_geriatric_interest
   - s2_tobacco_conversation
-  - s3_gig_vp  - s3_gig_vp
+  - s3_gig_vp
   - s4_club_day
+  - s5_shade_tree
