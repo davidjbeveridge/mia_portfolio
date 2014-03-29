@@ -1,5 +1,5 @@
 ---
-title: "Semester 4&mdash;OCCT 651: Occupational profile and reflection"
+title: "Semester 4&mdash;OCCT 651: Occupational Profile and Reflection"
 summary: >
   I reflect on my work with, and subsequent occupational profile and analysis of
   a patient recovering from open reduction internal fixation surgery.

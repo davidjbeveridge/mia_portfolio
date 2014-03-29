@@ -1,5 +1,5 @@
 ---
-title: "Semester 1&mdash;OCCT 508: Professional Development Plan and reflection"
+title: "Semester 1&mdash;OCCT 508: Professional Development Plan and Reflection"
 summary: >
   My first attempt at setting personal, professional, educational, and
   recreational goals for the next 10 years.

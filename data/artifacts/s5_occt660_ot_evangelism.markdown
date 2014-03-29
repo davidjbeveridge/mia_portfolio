@@ -1,5 +1,5 @@
 ---
-title: "Semester 5&mdash;OCCT 660: OT Evangelism during level II Fieldwork"
+title: "Semester 5&mdash;OCCT 660: OT Evangelism During Level II Fieldwork"
 summary: >
   I shared the values and beliefs of occupational therapy with a teacher
   during my Level II Fieldwork at Clark County School District.
