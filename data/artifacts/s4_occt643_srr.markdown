@@ -1,6 +1,8 @@
 ---
 title: "Semester 4&mdash;OCCT 643: Systematic Review and Reflection"
-summary: "Do psychosocial interventions for caregivers for persons with dementia to increase caregiver well-being?"
+summary: >
+  Do psychosocial interventions for caregivers for persons with dementia to
+  increase caregiver well-being?"
 pdf: s4_occt643_srr.pdf
 ---
 This assignment was one of the more difficult assignments to accomplish.
