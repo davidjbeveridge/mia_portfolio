@@ -61,7 +61,9 @@ way by not smoking myself and staying true to what I believe in.
 
 ### References
 {: .references}
+
 * Greenleaf, R. (1982). The Servant as Leader. Robert C. Greenleaf Center.
-* Kouzes, J., & Posner, B. (2003). Leadership Practices Inventory: Leadership Development        	Planner, San Francisco: Pfeiffer.
+* Kouzes, J., & Posner, B. (2003). Leadership Practices Inventory: Leadership
+  Development Planner, San Francisco: Pfeiffer.
 {: .references}
 
